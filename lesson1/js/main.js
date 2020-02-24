@@ -10,10 +10,10 @@ let catalog = {
     },
     _renderProduct(id, img, title, price) {
         return `<div class="product-item data-id="${id}" >
-        <img src="img/${img}" alt="${title}" width="200" height="150">        
+        <img src="img/${img}" alt="${title}" width="180" height="130">        
         <div class="desc">
         <h3>${title}</h3>
-        <p>${price}</p>
+        <p>${price} $</p>
         <button class="buy-btn">Добавить</button>
         </div>
     </div>`
